@@ -1,0 +1,7 @@
+{
+  "@class": "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId": "http://localhost:8080/.*",
+  "name": "Spring Boot CAS Client",
+  "id": 100,
+  "evaluationOrder": 1
+}
