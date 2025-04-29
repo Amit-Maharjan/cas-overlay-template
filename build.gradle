@@ -45,6 +45,7 @@ apply from: rootProject.file("gradle/dockerjib.gradle")
 dependencies {
     implementation "org.apereo.cas:cas-server-support-json-service-registry:${casServerVersion}"
     implementation "org.apereo.cas:cas-server-support-jdbc:${casServerVersion}"
+    implementation 'mysql:mysql-connector-java:8.0.33'
 }
 
 tasks.findByName("jibDockerBuild")
